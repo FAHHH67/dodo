@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>베껴쓰기 연습장 - 사회적 상상력</title>
+    <style>
+        /* 기본 스타일 초기화 */
+        body, h1, h2, h3, p, textarea {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Serif KR', serif; /* 필사에 어울리는 진지한 폰트 느낌 */
+            background-color: #f9f9f7; /* 눈이 편안한 미색 배경 */
+            color: #333;
+            line-height: 1.8;
+            padding: 40px 20px;
+        }
+
+        /* 중앙 정렬 컨테이너 */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        /* 메인 제목 */
+        .main-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 50px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+        }
+
+        /* 섹션(주제) 스타일 */
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: #e67e22; /* 포인트 컬러 */
+            margin-bottom: 30px;
+            border-left: 5px solid #e67e22;
+            padding-left: 15px;
+        }
+
+        /* 하위 제목 (상상력 종류) */
+        .sub-title {
+            font-size: 1.3rem;
+            color: #7f8c8d;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        /* 원문 텍스트 영역 */
+        .origin-text {
+            background-color: #f4f4f2;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            white-space: pre-line; /* 줄바꿈 유지 */
+            font-size: 1.1rem;
+            color: #555;
+            border: 1px solid #e0e0e0;
+        }
+
+        /* 입력 영역 (Textarea) */
+        .input-area {
+            width: 100%;
+            height: 150px;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #ddd;
+            font-family: 'Noto Serif KR', serif;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            resize: none; /* 크기 조절 막기 */
+            transition: border-color 0.3s ease;
+        }
+
+        /* 입력 영역 포커스 시 스타일 */
+        .input-area:focus {
+            outline: none;
+            border-color: #e67e22;
+            box-shadow: 0 0 10px rgba(230, 126, 34, 0.1);
+        }
+
+        /* 가독성을 위한 웹폰트 추가 (Google Fonts) */
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap');
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="main-title">필사 연습장</h1>
+
+    <div class="section">
+        <h2 class="section-title">두쫀쿠 열풍</h2>
+
+        <h3 class="sub-title">역사적 상상력</h3>
+        <p class="origin-text">두쫀쿠 열풍은 현재 우리 사회가 과거와 달리 SNS를 중심으로 유행이 빠르게 확산된다는 점에서 차이를 보인다.
+과거에는 사람들 사이에서 서서히 퍼졌다면,
+오늘날에는 알고리즘과 숏폼 콘텐츠를 통해 짧은 시간 안에 대중화되는 방식으로 변화해 왔다.
+이를 통해 현대 사회가 SNS 중심 속에서 유행이 형성됨을 알 수 있다.</p>
+        <textarea class="input-area" placeholder="위 내용을 여기에 따라서 써보세요..."></textarea>
+
+        <h3 class="sub-title">인류학적 상상력</h3>
+        <p class="origin-text">두쫀쿠 열풍은 집단에 따라 다르게 받아들여진다.
+SNS 사용이 활발한 청소년층에서는 이를 문화로 즐기며 적극적으로 공유하는 반면,
+그렇지 않은 집단에서는 단순한 유행으로 인식되기도 한다.
+이를 통해 사회마다 다른 문화적 특성과 소비 방식의 차이를 이해할 수 있다.</p>
+        <textarea class="input-area" placeholder="위 내용을 여기에 따라서 써보세요..."></textarea>
+
+        <h3 class="sub-title">비판적 상상력</h3>
+        <p class="origin-text">두쫀쿠 열풍은 사람들에게 즐거움을 주지만, 남들보다 뒤처질까 봐 불안해하는 심리를 자극한다는 점에서 문제를 지닌다.
+이러한 현상은 유행을 따라야 한다는 압박을 강화하고, 자기 생각보다 유행을 더 따르게 만들 수 있다.
+따라서 이러한 문화를 비판적으로 바라보고, 타인의 기준이 아닌 자신의 기준에 따라 소비하는 태도가 필요하다.</p>
+        <textarea class="input-area" placeholder="위 내용을 여기에 따라서 써보세요..."></textarea>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">전기 자전거 무단 방치 및 불법 주차</h2>
+
+        <h3 class="sub-title">역사적 상상력</h3>
+        <p class="origin-text">과거에는 자전거가 개인 소유 중심이었기 때문에 무단 방치나 불법 주차 문제가 크게 나타나지 않았다.
+그러나 최근 공유 전기 자전거가 등장하면서 누구나 쉽게 이용할 수 있게 되었고, 그만큼 이용 후 방치되는 문제가 증가하였다.
+이를 통해 현대 사회는 편리함이 증가하면서 사회 문제가 함께 나타나는 특징을 보인다는 것을 알 수 있다.</p>
+        <textarea class="input-area" placeholder="위 내용을 여기에 따라서 써보세요..."></textarea>
+
+        <h3 class="sub-title">인류학적 상상력</h3>
+        <p class="origin-text">전기 자전거 무단 방치 및 불법 주차 문제는 집단에 따라 다르게 나타난다.
+이용자들은 편리함을 우선시하여 이를 크게 문제로 인식하지 않는 반면,
+보행자나 지역 주민들은 불편과 안전 문제로 인해 부정적으로 인식한다.
+이를 통해 사회 집단마다 서로 다른 입장을 지니고 있음을 이해할 수 있다.</p>
+        <textarea class="input-area" placeholder="위 내용을 여기에 따라서 써보세요..."></textarea>
+
+        <h3 class="sub-title">비판적 상상력</h3>
+        <p class="origin-text">전기 자전거 무단 방치와 불법 주차는 보행자의 이동을 방해하는 문제를 일으킨다.
+이는 단순한 개인의 문제가 아닌 공공질서를 해치는 사회적 문제로 볼 수 있다. 따라서
+이용자의 책임 의식을 강화하고, 관련 규제를 마련하거나 시스템 개선하는 등의 대안이 필요하다.</p>
+        <textarea class="input-area" placeholder="위 내용을 여기에 따라서 써보세요..."></textarea>
+    </div>
+
+</div>
+
+</body>
+</html>
